@@ -15,6 +15,7 @@
 		BB08DB32284932B4002ADCAA /* PasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB31284932B4002ADCAA /* PasswordUITests.swift */; };
 		BB08DB34284932B4002ADCAA /* PasswordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB33284932B4002ADCAA /* PasswordUITestsLaunchTests.swift */; };
 		BB08DB4228494EF8002ADCAA /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB4128494EF8002ADCAA /* PasswordTextField.swift */; };
+		BB48E76F284A7AA500F51888 /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48E76E284A7AA500F51888 /* PasswordCriteriaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB08DB31284932B4002ADCAA /* PasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITests.swift; sourceTree = "<group>"; };
 		BB08DB33284932B4002ADCAA /* PasswordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BB08DB4128494EF8002ADCAA /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		BB48E76E284A7AA500F51888 /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BB08DB0F284932B3002ADCAA /* Password */ = {
 			isa = PBXGroup;
 			children = (
+				BB48E76D284A7A8200F51888 /* PasswordStatus */,
 				BB08DB4028493333002ADCAA /* Files */,
 				BB08DB10284932B3002ADCAA /* AppDelegate.swift */,
 				BB08DB14284932B3002ADCAA /* ViewController.swift */,
@@ -130,6 +133,14 @@
 				BB08DB1E284932B3002ADCAA /* Info.plist */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		BB48E76D284A7A8200F51888 /* PasswordStatus */ = {
+			isa = PBXGroup;
+			children = (
+				BB48E76E284A7AA500F51888 /* PasswordCriteriaView.swift */,
+			);
+			path = PasswordStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				BB08DB15284932B3002ADCAA /* ViewController.swift in Sources */,
 				BB08DB11284932B3002ADCAA /* AppDelegate.swift in Sources */,
+				BB48E76F284A7AA500F51888 /* PasswordCriteriaView.swift in Sources */,
 				BB08DB4228494EF8002ADCAA /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

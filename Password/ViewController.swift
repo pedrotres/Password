@@ -23,6 +23,12 @@ final class ViewController: UIViewController {
         return stackView
     }()
     
+    private lazy var criteriaView: PasswordCriteriaView = {
+        let view = PasswordCriteriaView(text: "uppercase latter (A-Z)")
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -32,7 +38,7 @@ final class ViewController: UIViewController {
 
 extension ViewController {
     func setupViews () {
-        stackView.addArrangedSubview(newPasswordTextField)
+        stackView.addArrangedSubview(criteriaView)
         view.addSubview(stackView)
     }
     
