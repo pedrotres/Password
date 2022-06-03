@@ -14,6 +14,7 @@
 		BB08DB28284932B4002ADCAA /* PasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB27284932B4002ADCAA /* PasswordTests.swift */; };
 		BB08DB32284932B4002ADCAA /* PasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB31284932B4002ADCAA /* PasswordUITests.swift */; };
 		BB08DB34284932B4002ADCAA /* PasswordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB33284932B4002ADCAA /* PasswordUITestsLaunchTests.swift */; };
+		BB08DB4228494EF8002ADCAA /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DB4128494EF8002ADCAA /* PasswordTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BB08DB2D284932B4002ADCAA /* PasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB08DB31284932B4002ADCAA /* PasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITests.swift; sourceTree = "<group>"; };
 		BB08DB33284932B4002ADCAA /* PasswordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB08DB4128494EF8002ADCAA /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BB08DB4028493333002ADCAA /* Files */,
 				BB08DB10284932B3002ADCAA /* AppDelegate.swift */,
 				BB08DB14284932B3002ADCAA /* ViewController.swift */,
+				BB08DB4128494EF8002ADCAA /* PasswordTextField.swift */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BB08DB15284932B3002ADCAA /* ViewController.swift in Sources */,
 				BB08DB11284932B3002ADCAA /* AppDelegate.swift in Sources */,
+				BB08DB4228494EF8002ADCAA /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Password/Files/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -412,6 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Password/Files/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -430,7 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Password/Info.plist;
+				INFOPLIST_FILE = Password/Files/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -456,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Password/Info.plist;
+				INFOPLIST_FILE = Password/Files/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
